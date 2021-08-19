@@ -12,7 +12,11 @@ import com.hasu.packagechallenge.constants.PackageChallangeConstants;
 import com.hasu.packagechallenge.exceptions.FileParserException;
 import com.hasu.packagechallenge.model.Item;
 import com.hasu.packagechallenge.model.Package;
-
+/**
+ * Singleton class responsible to help parsing file
+ * @author z003yjtu
+ *
+ */
 public class FileParser {
 
 	private static FileParser fileParser;
